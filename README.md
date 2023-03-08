@@ -8,11 +8,11 @@ This is a arcade idle game.
 
   - User started with 320$ for open first desk and shipping department, then start the shipping.
   
-  - User picks up the cargo from the shipping department and leaves it on the table so that the customers can pick up the cargo from the table
+  - User picks up the cargo from the shipping department and leaves it on the table so that the customers can pick up the cargo from the table.
 
-  - User earn money with shipping to customers for enlarge the office.
+  - User earn money with doing shipping to customers for enlarge the office.
   
-  - If user has enough money, user can open with staying on Buying Place.
+  - If user has enough money, user can open the new department with staying on Buying Place.
   
   -If user open all of desks then user can open the cargo car. Cargo car can take eight cargo and going to the city delivery the cargos.
 

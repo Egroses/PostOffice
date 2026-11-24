@@ -1,43 +1,36 @@
-# PostOfficeGame
+# PostOffice
 
-## About Game
-This is a arcade idle game.
+Kargo dağıtarak para kazanılan ve postaneyi büyütülen bir arcade idle mobil oyun.
 
+![Postane](Images/PostOffice.png)
 
-   Basically;
+## Neden?
 
-  - User started with 320$ for open first desk and shipping department, then start the shipping.
-  
-  - User picks up the cargo from the shipping department and leaves it on the table so that the customers can pick up the cargo from the table.
+Idle oyunların temel döngüsünü, yani üret, taşı, sat, kazandığınla yeni bölüm aç döngüsünü; müşterileri, çalışanları ve kargo aracıyla birlikte kurmak için yapıldı.
 
-  - User earn money with doing shipping to customers for enlarge the office.
-  
-  - If user has enough money, user can open the new department with staying on Buying Place.
-  
-  -If user open all of desks then user can open the cargo car. Cargo car can take eight cargo and going to the city delivery the cargos.
+## Oynanış
 
-   
- Navmesh Agent, Dotween, Joystick System and Event System are used.
+- Oyun 320$ ile başlıyor. Bu parayla ilk masa ve kargo bölümü açılıp kargo işi başlatılıyor.
+- Oyuncu kargo bölümünden kargoları alıp masaya bırakıyor, müşteriler kargolarını masadan alıyor.
+- Kargo teslim ettikçe kazanılan parayla postane büyütülüyor.
+- Yeterli para varsa satın alma alanında durularak yeni bölüm açılıyor.
+- Bütün masalar açılınca kargo aracı açılıyor. Araç sekiz kargo alıp şehre dağıtıma çıkıyor.
 
- You can see images from game.
+## Ekranlar
 
+| Masa | Kargo aracı |
+|---|---|
+| ![Masa](Images/PostDesk.png) | ![Kargo aracı](Images/PostCar.png) |
+| **Müşteriler** | **Kargo bölümü** |
+| ![Müşteriler](Images/Customers.png) | ![Kargo bölümü](Images/CargoPlace.png) |
+| **Kargo alma** | |
+| ![Kargo alma](Images/TakingCargo.png) | |
 
-## Images From Game
+## Teknik
 
-**Post Office**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/PostOffice.png)
-
-**Post Desk**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/PostDesk.png)
-
-**Post Car**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/PostCar.png)
-
-**Customers**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/Customers.png)
-
-**Cargo Place**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/CargoPlace.png)
-
-**Taking Cargo**\
-![](https://github.com/Egroses/PostOffice/blob/main/Images/TakingCargo.png)
+| | |
+|---|---|
+| **Motor** | Unity |
+| **Kullanılanlar** | NavMesh Agent, DOTween, joystick, olay sistemi, nesne havuzu |
+| **Bu repoda** | Yalnızca oyunun scriptleri (`Assets/Codes`) ve ekran görüntüleri (`Images`); Unity projesinin tamamı yok |
+| **GitHub'a yükleme** | Mart 2023 |
